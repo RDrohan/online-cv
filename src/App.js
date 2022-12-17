@@ -33,6 +33,56 @@ function App() {
             className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
             href="#skills"
           >
+            Read On
+          </a>
+        </div>
+      </Hero>
+      <Hero id="skills">
+        <h2 className="text-3xl font-extrabold sm:text-5xl">Skills</h2>
+
+        <div class="mt-12 sm:text-xl sm:leading-relaxed text-justify">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="text-left text-xl p-6 bg-gray-100">
+              <h3 className="pb-1 font-bold italic text-red-600">
+                Programming Languages
+              </h3>
+              <p>JavaScript, Python, Java, HTML/CSS</p>
+            </div>
+            <div class="text-left text-xl p-6 bg-gray-100">
+              <h3 className="pb-1 font-bold italic text-red-600">
+                Technologies & Frameworks
+              </h3>
+              <p>
+                AngularJS, React, jQuery, Vue.js, ExpressJS, SCSS, Sass,
+                Tailwind
+              </p>
+            </div>
+            <div class="text-left text-xl p-6 bg-gray-100">
+              <h3 className="pb-1 font-bold italic text-red-600">Databases</h3>
+              <p>
+                SQL Server, MySQL, PostgreSQL, MongoDB, Firebase, GraphQL,
+                Prisma
+              </p>
+            </div>
+            <div class="text-left text-xl p-6 bg-gray-100">
+              <h3 className="pb-1 font-bold italic text-red-600">
+                Development Tools
+              </h3>
+              <p>
+                SQL Server Management Studio, SQL Server Integration Services,
+                SQL Server Reporting Services, QlikView, QlikSense, Movex,
+                MPower, IBM Sterling B2Bi, MS Visual Studio, VS Code, Git,
+                Docker, Crystal Reports
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
+          <a
+            className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
+            href="#skills"
+          >
             Work In Progress ...
           </a>
         </div>
