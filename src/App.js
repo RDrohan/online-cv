@@ -12,10 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero
-        id="about"
-        gradient="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-200 via-gray-400 to-gray-600"
-      >
+      <Hero id="about">
         <div className="inline-block">
           <GrDocumentText size={80} />
         </div>
@@ -64,10 +61,7 @@ function App() {
           </a>
         </div>
       </Hero>
-      <Hero
-        id="education"
-        gradient="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-200 via-gray-400 to-gray-600"
-      >
+      <Hero id="education">
         <div className="inline-block">
           <GiGraduateCap size={80} />
         </div>
@@ -148,14 +142,17 @@ function App() {
           </a>
         </div>
       </Hero>
-      <Hero id="employment">
+      <Hero id="employment-1">
         <div className="inline-block">
           <CgWorkAlt size={80} />
         </div>
 
-        <h2 className="text-3xl font-extrabold sm:text-5xl">Employment</h2>
+        <h2 className="text-3xl font-extrabold sm:text-5xl">
+          Employment
+          <span className="font-extrabold text-red-700 sm:block">Page 1</span>
+        </h2>
 
-        <div className="mt-12 grid grid-cols-3 gap-4 font-bold italic text-red-600">
+        <div className="mt-4 grid grid-cols-3 gap-4 font-bold italic text-red-600">
           <div className="text-left col-span-1 text-sm md:text-xl">
             Dawn Meats
           </div>
@@ -163,7 +160,7 @@ function App() {
             SQL/BI Developer
           </div>
           <div className="text-right col-span-1 text-sm md:text-xl">
-            September 2021– present
+            September 2021–present
           </div>
         </div>
         <ul className="mt-4 ml-4 list-disc text-left text-sm md:text-xl">
@@ -195,7 +192,7 @@ function App() {
           <li>Provided out of hours support on a rotational basis</li>
         </ul>
 
-        <div className="mt-8 grid grid-cols-3 gap-4 font-bold italic text-red-600">
+        <div className="mt-4 grid grid-cols-3 gap-4 font-bold italic text-red-600">
           <div className="text-left col-span-1 text-sm md:text-xl">
             Sun Life Financial
           </div>
@@ -203,7 +200,7 @@ function App() {
             Data Support Developer
           </div>
           <div className="text-right col-span-1 text-sm md:text-xl">
-            June 2021 – September 2021
+            June 2021–September 2021
           </div>
         </div>
 
@@ -223,7 +220,204 @@ function App() {
           </li>
         </ul>
 
-        <div className="mt-8 flex flex-wrap justify-center gap-4">
+        <div className="mt-4 flex flex-wrap justify-center gap-4">
+          <a
+            className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
+            href="#employment-2"
+          >
+            Go to Page 2
+          </a>
+        </div>
+      </Hero>
+      <Hero id="employment-2">
+        <div className="inline-block">
+          <CgWorkAlt size={80} />
+        </div>
+
+        <h2 className="text-3xl font-extrabold sm:text-5xl">
+          Employment
+          <span className="font-extrabold text-red-700 sm:block">Page 2</span>
+        </h2>
+
+        <div className="mt-4 grid grid-cols-3 gap-4 font-bold italic text-red-600">
+          <div className="text-left col-span-1 text-sm md:text-xl">
+            Dawn Meats
+          </div>
+          <div className="text-center col-span-1 text-sm md:text-xl">
+            SQL/BI Developer
+          </div>
+          <div className="text-right col-span-1 text-sm md:text-xl">
+            May 2019–June 2021
+          </div>
+        </div>
+        <ul className="mt-4 ml-4 list-disc text-left text-sm md:text-xl">
+          <li>
+            Created and managed reports for the line of business and back-office
+            application systems like SSRS, Emydex and QlikView
+          </li>
+          <li>
+            Requirements gathering, analysis and design of new requirements
+          </li>
+          <li>
+            Liaised with BI team to deliver and support database extracts used
+            in dashboards and reports
+          </li>
+          <li>
+            Requirements gathering, analysis and design of new requirements
+          </li>
+          <li>
+            Performance tuning of SQL queries and troubleshoot existing SQL code
+            in stored procedures, functions, tables, and views
+          </li>
+          <li>Carried out service support requests in a timely manner</li>
+          <li>
+            Developed and maintained documentation for EDI, SQL and BI processes
+          </li>
+          <li>Provided out of hours support on a rotational basis</li>
+        </ul>
+
+        <div className="mt-4 grid grid-cols-3 gap-4 font-bold italic text-red-600">
+          <div className="text-left col-span-1 text-sm md:text-xl">
+            Zinnia (formerly SE2)
+          </div>
+          <div className="text-center col-span-1 text-sm md:text-xl">
+            Analyst
+          </div>
+          <div className="text-right col-span-1 text-sm md:text-xl">
+            Jul 2017–Jan 2019
+          </div>
+        </div>
+        <ul className="mt-4 ml-4 list-disc text-left text-sm md:text-xl">
+          <li>
+            Created SQL scripts to rectify sensitive commercial data issues in
+            client databases and generate technical reports for third-party
+            providers
+          </li>
+          <li>Performed peer reviewed testing of scripts</li>
+          <li>Actively mentored graduates and interns on completing tasks</li>
+          <li>Documented processes and procedures for other team members</li>
+          <li>
+            Worked independently within a team setting, communicating with
+            others on progress during stand-ups
+          </li>
+          <li>Produced project deliverables in a timely and accurate manner</li>
+        </ul>
+
+        <div className="mt-4 flex flex-wrap justify-center gap-4">
+          <a
+            className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
+            href="#employment-3"
+          >
+            Go to Page 3
+          </a>
+        </div>
+      </Hero>
+      <Hero id="employment-3">
+        <div className="inline-block">
+          <CgWorkAlt size={80} />
+        </div>
+
+        <h2 className="text-3xl font-extrabold sm:text-5xl">
+          Employment
+          <span className="font-extrabold text-red-700 sm:block">Page 3</span>
+        </h2>
+
+        <div className="mt-4 grid grid-cols-3 gap-4 font-bold italic text-red-600">
+          <div className="text-left col-span-1 text-sm md:text-xl">
+            Walton Institute
+          </div>
+          <div className="text-center col-span-1 text-sm md:text-xl">
+            Associate Software Developer
+          </div>
+          <div className="text-right col-span-1 text-sm md:text-xl">
+            Jan 2015–Jan 2017
+          </div>
+        </div>
+        <ul className="mt-4 ml-4 list-disc text-left text-sm md:text-xl">
+          <li>
+            Created and managed reports for the line of business and back-office
+            application systems like SSRS, Emydex and QlikView
+          </li>
+          <li>
+            Requirements gathering, analysis and design of new requirements
+          </li>
+          <li>
+            Liaised with BI team to deliver and support database extracts used
+            in dashboards and reports
+          </li>
+          <li>
+            Requirements gathering, analysis and design of new requirements
+          </li>
+          <li>
+            Performance tuning of SQL queries and troubleshoot existing SQL code
+            in stored procedures, functions, tables, and views
+          </li>
+          <li>Carried out service support requests in a timely manner</li>
+          <li>
+            Developed and maintained documentation for EDI, SQL and BI processes
+          </li>
+          <li>Provided out of hours support on a rotational basis</li>
+        </ul>
+
+        <div className="mt-4 grid grid-cols-3 gap-4 font-bold italic text-red-600">
+          <div className="text-left col-span-1 text-sm md:text-xl">
+            Sun Life Financial
+          </div>
+          <div className="text-center col-span-1 text-sm md:text-xl">
+            Operations Specialist
+          </div>
+          <div className="text-right col-span-1 text-sm md:text-xl">
+            Oct 2013–Mar 2014
+          </div>
+        </div>
+        <ul className="mt-4 ml-4 list-disc text-left text-sm md:text-xl">
+          <li>
+            Carried out administrative tasks relating to new accounts, data
+            cleansing, fund transfers and scheduling in a timely and accurate
+            manner
+          </li>
+          <li>
+            Escalated and prioritises issues that cannot be resolved straight
+            away and liaise with staff from other departments to ensure queries
+            are responded to in a timely manner
+          </li>
+          <li>
+            Identified process improvements to increase efficiencies and
+            streamline processes
+          </li>
+        </ul>
+
+        <div className="mt-4 grid grid-cols-3 gap-4 font-bold italic text-red-600">
+          <div className="text-left col-span-1 text-sm md:text-xl">
+            SimplyInsure.ie
+          </div>
+          <div className="text-center col-span-1 text-sm md:text-xl">
+            Digital Marketing Executive
+          </div>
+          <div className="text-right col-span-1 text-sm md:text-xl">
+            Jan 2011–Oct 2013
+          </div>
+        </div>
+        <ul className="mt-4 ml-4 list-disc text-left text-sm md:text-xl">
+          <li>
+            Designed and implemented digital marketing strategy (Facebook,
+            Twitter, SEO, Google AdWords, and blogging) generating a significant
+            amount of business inquiries
+          </li>
+          <li>
+            Performed office duties, customer service and administrative tasks
+          </li>
+          <li>Graphic design of digital and printed materials</li>
+          <li>
+            Managed company website using WordPress Content Management System
+          </li>
+          <li>
+            Liaised with suppliers, webmaster, fellow colleagues, insurance
+            companies and IT support
+          </li>
+        </ul>
+
+        <div className="mt-4 flex flex-wrap justify-center gap-4">
           <a
             className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
             href="#contact"
