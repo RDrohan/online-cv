@@ -23,15 +23,15 @@ function Navbar() {
             Education
           </a>
         </li>
-        <li class="dropdown inline-block relative cursor-pointer">
+        <li className="dropdown inline-block relative cursor-pointer">
           <a className="py-2 px-4 inline-flex items-center hover:text-red-600">
             Employment
             <RiArrowDropDownLine className="hover:text-red-600" />
           </a>
-          <ul class="dropdown-menu absolute bg-white hidden">
+          <ul className="dropdown-menu absolute bg-white hidden">
             <li className="hover:text-red-600">
               <a
-                class="rounded-t py-2 px-4 block whitespace-no-wrap"
+                className="rounded-t py-2 px-4 block whitespace-no-wrap"
                 href="#employment-1"
               >
                 Page 1
@@ -39,7 +39,7 @@ function Navbar() {
             </li>
             <li className="hover:text-red-600">
               <a
-                class="py-2 px-4 block whitespace-no-wrap"
+                className="py-2 px-4 block whitespace-no-wrap"
                 href="#employment-2"
               >
                 Page 2
@@ -47,7 +47,7 @@ function Navbar() {
             </li>
             <li className="hover:text-red-600">
               <a
-                class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                className="rounded-b py-2 px-4 block whitespace-no-wrap"
                 href="#employment-2"
               >
                 Page 3

@@ -4,9 +4,11 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Grid from "./components/Grid";
 
-import { GrDocumentText } from "react-icons/gr";
+import { GrDocumentText, GrContactInfo } from "react-icons/gr";
 import { GiSkills, GiGraduateCap } from "react-icons/gi";
 import { CgWorkAlt } from "react-icons/cg";
+import { HiOutlineMail, HiPhone } from "react-icons/hi";
+import { FaAddressCard } from "react-icons/fa";
 
 function App() {
   return (
@@ -423,6 +425,48 @@ function App() {
             href="#contact"
           >
             Work In Progress ...
+          </a>
+        </div>
+      </Hero>
+      <Hero id="contact">
+        <div className="inline-block">
+          <GrContactInfo size={80} />
+        </div>
+
+        <h2 className="text-3xl font-extrabold sm:text-5xl">Contact Me</h2>
+
+        <div className="mt-12 sm:text-xl sm:leading-relaxed text-justify">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="text-left text-2xl p-6 text-center">
+              <div className="inline-block text-red-600">
+                <HiOutlineMail size={60} />
+              </div>
+              <h3 className="pb-1 font-bold italic text-red-600">Email</h3>
+              <a href="mailto:rdrohanirl@yahoo.ie">rdrohanirl@yahoo.ie</a>
+            </div>
+            <div className="text-left text-2xl p-6 text-center">
+              <div className="inline-block text-red-600">
+                <HiPhone size={60} />
+              </div>
+              <h3 className="pb-1 font-bold italic text-red-600">Phone</h3>
+              <a href="tel:+353879124961">&#43;353 87 9124961</a>
+            </div>
+            <div className="text-left text-2xl p-6 text-center">
+              <div className="inline-block text-red-600">
+                <FaAddressCard size={60} />
+              </div>
+              <h3 className="pb-1 font-bold italic text-red-600">Address</h3>
+              <p>19 The Moorings, Ballinakill, Waterford, Ireland</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
+          <a
+            className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
+            href="#about"
+          >
+            Go to Start
           </a>
         </div>
       </Hero>
