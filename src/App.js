@@ -424,7 +424,7 @@ function App() {
             className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
             href="#contact"
           >
-            Work In Progress ...
+            Contact Me
           </a>
         </div>
       </Hero>
