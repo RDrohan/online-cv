@@ -27,7 +27,7 @@ function App() {
         </h1>
 
         <p className="mt-12 text-xl sm:leading-relaxed text-justify">
-          A hardworking, reliable, and adaptable software developer with over 7
+          A hardworking, reliable, and adaptable software developer with over 8
           years&#8217; experience in full stack Web, Database and Business
           Intelligence (BI) development following completion of Higher Diploma
           in Computer Science in 2015. I am seeking a position which will
