@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="navbar fixed justify-center bg-base-100">
+    <div className="navbar fixed justify-center bg-base-100 z-50">
       <div class="flex-none">
         <ul class="menu menu-horizontal px-1 text-xs sm:text-lg">
           <li>
