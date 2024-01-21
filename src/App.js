@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 import Grid from "./components/Grid";
 
 import { GrDocumentText, GrContactInfo } from "react-icons/gr";
-import { GiSkills, GiGraduateCap } from "react-icons/gi";
+import { GiGraduateCap } from "react-icons/gi";
 import { CgWorkAlt } from "react-icons/cg";
 import { HiOutlineMail, HiPhone } from "react-icons/hi";
 import { FaAddressCard } from "react-icons/fa";
@@ -15,7 +15,7 @@ function App() {
     <>
       <Navbar />
       <Hero id="about">
-        <div className="m-4 max-w-md sm:max-w-5xl">
+        <div className="m-4 max-w-sm sm:max-w-5xl">
           <div className="inline-block">
             <GrDocumentText size={80} />
           </div>
@@ -45,7 +45,7 @@ function App() {
         </div>
       </Hero>
       <Hero id="skills">
-        <div className="m-4 max-w-md sm:max-w-5xl">
+        <div className="m-4 max-w-sm sm:max-w-5xl">
           <div className="inline-block">
             <GrDocumentText size={80} />
           </div>
@@ -62,7 +62,7 @@ function App() {
         </div>
       </Hero>
       <Hero id="education">
-        <div className="m-4 max-w-md sm:max-w-5xl">
+        <div className="m-4 max-w-sm sm:max-w-5xl">
           <div className="inline-block">
             <GiGraduateCap size={80} />
           </div>
@@ -137,7 +137,7 @@ function App() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
-              href="#employment"
+              href="#employment-1"
             >
               See Employment
             </a>
@@ -145,7 +145,7 @@ function App() {
         </div>
       </Hero>
       <Hero id="employment-1">
-        <div className="m-4 max-w-md sm:max-w-5xl">
+        <div className="m-4 max-w-sm sm:max-w-5xl">
           <div className="inline-block">
             <CgWorkAlt size={80} />
           </div>
@@ -238,7 +238,7 @@ function App() {
         </div>
       </Hero>
       <Hero id="employment-2">
-        <div className="m-4 max-w-md sm:max-w-5xl">
+        <div className="m-4 max-w-sm sm:max-w-5xl">
           <div className="inline-block">
             <CgWorkAlt size={80} />
           </div>
@@ -326,7 +326,7 @@ function App() {
         </div>
       </Hero>
       <Hero id="employment-3">
-        <div className="m-4 max-w-md sm:max-w-5xl">
+        <div className="m-4 max-w-sm sm:max-w-5xl">
           <div className="inline-block">
             <CgWorkAlt size={80} />
           </div>
@@ -443,7 +443,7 @@ function App() {
         </div>
       </Hero>
       <Hero id="contact">
-        <div className="m-4 max-w-md sm:max-w-5xl">
+        <div className="m-4 max-w-sm sm:max-w-5xl">
           <div className="inline-block">
             <GrContactInfo size={80} />
           </div>
